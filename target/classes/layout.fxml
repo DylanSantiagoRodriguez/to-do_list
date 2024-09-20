@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="10" alignment="CENTER">
+    <Label text="Title:"/>
+    <TextField fx:id="titleField"/>
+    <Label text="Description:"/>
+    <TextField fx:id="descriptionField"/>
+    <Button text="Add Task" onAction="#addTask"/>
+    <ListView fx:id="taskListView"/>
+</VBox>

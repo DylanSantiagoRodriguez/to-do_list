@@ -1,0 +1,6 @@
+com\todo\todolist\Main.class
+com\todo\todolist\ui\TaskManagerUI.class
+com\todo\todolist\model\Task.class
+com\todo\todolist\service\TaskService.class
+com\todo\todolist\database\DatabaseConnection.class
+com\todo\todolist\model\TaskFactory.class
